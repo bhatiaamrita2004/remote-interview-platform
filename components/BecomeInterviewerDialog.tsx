@@ -8,7 +8,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { Label } from "./ui/label";
-import { api } from "../convex/_generated/api";
+import { api } from "@/convex/_generated/api";
 
 interface BecomeInterviewerDialogProps {
   isOpen: boolean;
