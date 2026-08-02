@@ -18,7 +18,7 @@ export default function Home() {
   const router = useRouter();
 
   const { isInterviewer, isCandidate, isLoading } = useUserRole();
-  const interviews = useQuery(api.interviews.getMyInterviews);
+  const interviews = useQuery(api.interview.getMyInterviews);
   const [showModal, setShowModal] = useState(false);
   const [modalType, setModalType] = useState<"start" | "join">();
   const [showBecomeInterviewer, setShowBecomeInterviewer] = useState(false);
